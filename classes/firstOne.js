@@ -1,11 +1,11 @@
 function Person (name, job) {
- this.name = name;
- this.job = job;
+  this.name = name;
+  this.job = job;
 
- this.saying = function () {
-     console.log('my name is:', this.name);
- }
-}
+this.saying = function () {
+  console.log('my name is:', this.name);
+};
+
 
 
 var christin = new Person('christin','el jefe');
